@@ -1,4 +1,6 @@
 # 🚀 Finance Data Pipeline: ETL & Orquestração com Airflow
+![Dashboard de Finanças](dashboard.png)
+
 
 Este projeto demonstra a construção de um ecossistema de dados robusto para o setor financeiro. O objetivo é automatizar a coleta, processamento e armazenamento de indicadores de mercado, utilizando as melhores práticas de engenharia de dados.
 
