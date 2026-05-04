@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  airflow:
+    build: .
+    # image: apache/airflow:2.7.1  <-- pode comentar ou apagar essa
+
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/scripts
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    command: standalone
+    ports:
+      - "8080:8080"
